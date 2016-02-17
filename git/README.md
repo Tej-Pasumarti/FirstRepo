@@ -76,7 +76,7 @@ The original developer makes changes to address the comments and updates their b
 and pushes their changes to the remote branch.  
     git push --force-with-lease origin <branch-name>
 
-During the code review process, we should avoid a squashing of commits
+During the code review process, we should not squash any commits
 
 When satisfied, they comment on the pull request `Ready to merge.`
 
@@ -92,7 +92,7 @@ tests.
 
 Force push your branch. This allows GitHub to automatically close your pull
 request and mark it as merged when your commit(s) are pushed to master. It also
- makes it possible to [find the pull request] that brought in your changes.
+makes it possible to [find the pull request] that brought in your changes.
 
     git push --force-with-lease origin <branch-name>
 
