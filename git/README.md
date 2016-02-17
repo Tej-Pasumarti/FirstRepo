@@ -72,14 +72,11 @@ A team member other than the author reviews the pull request.
 They make comments and ask questions directly on lines of code in the GitHub
 web interface or in the project's chat room.
 
-For changes which they can make themselves, they check out the branch.
+The original developer makes changes to address the comments and updates their branch
+and pushes their changes to the remote branch.  
+    git push --force-with-lease origin <branch-name>
 
-    git checkout <branch-name>
-    ./bin/setup
-    git diff staging/master..HEAD
-
-They make small changes right in the branch, test the feature on their machine,
-run tests, commit, and push.
+During the code review process, we should avoid a squashing of commits
 
 When satisfied, they comment on the pull request `Ready to merge.`
 
@@ -116,3 +113,8 @@ Delete your local feature branch.
     git branch --delete <branch-name>
 
 [find the pull request]: http://stackoverflow.com/a/17819027
+
+
+Useful Links
+-----
+- [Git Cheat Sheat](https://github.com/jakubpawlowicz/git-cheat-sheet)
