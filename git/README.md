@@ -73,7 +73,8 @@ They make comments and ask questions directly on lines of code in the GitHub
 web interface or in the project's chat room.
 
 The original developer makes changes to address the comments and updates their branch
-and pushes their changes to the remote branch.  
+and pushes their changes to the remote branch.
+
     git push --force-with-lease origin <branch-name>
 
 During the code review process, we should not squash any commits
