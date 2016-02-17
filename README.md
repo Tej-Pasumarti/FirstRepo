@@ -1,5 +1,5 @@
-# xpo-conventions
-XPO Coding convetions
+# XPO Coding convetions
+
 
 ## Table of Contents
 1. [C#](c_sharp/)
