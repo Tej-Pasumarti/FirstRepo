@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XPO Coding convetions
 
 
@@ -5,3 +6,7 @@
 1. [C#](c_sharp/)
 1. [Git](git/)
 2. [JavaScript](javascript/)
+=======
+# FirstRepo
+My First Repository
+>>>>>>> testrepo/master
