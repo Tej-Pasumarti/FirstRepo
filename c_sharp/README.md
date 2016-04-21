@@ -1,2 +1,0 @@
-# C# Style Guide
-test

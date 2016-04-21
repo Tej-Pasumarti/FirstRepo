@@ -1,2 +1,0 @@
-# Angular Style Guide
-test
